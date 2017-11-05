@@ -16,14 +16,14 @@
   {% endcapture %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Spoqa 기술 블로그{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <title>Spoqa Blog cá nhân{% if page.title %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ page_description | strip }}">
   <link rel="canonical" href="{{ site.home_url}}{{ page.url }}">
 
   <!-- OpenGraph meta tags -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Spoqa 기술 블로그{% endif %}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}Spoqa Blog cá nhân{% endif %}">
   <meta property="og:url" content="{{ site.home_url }}{{ page.url }}">
-  <meta property="og:site_name" content="Spoqa 기술 블로그">
+  <meta property="og:site_name" content="Spoqa Blog cá nhân">
   <meta property="og:description" content="{{ page_description | strip }}">
   {% if page.url contains 'jobs' %}
     <meta property="og:type" content="blog">
@@ -41,7 +41,7 @@
   <!-- Twitter card meta tags -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:site" content="@spoqa">
-  <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}Spoqa 기술 블로그{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}Spoqa Blog cá nhân{% endif %}">
   <meta name="twitter:description" content="{{ page_description | strip }}">
   {% if page.representing_image %}
     <meta name="twitter:image" content="{{ site.home_url }}{{ page.representing_image }}">
@@ -73,7 +73,7 @@
     ga('send', 'pageview');
   </script>
   <link rel="stylesheet" href="/css/styles.css">
-  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Spoqa 기술 블로그">
+  <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Spoqa Blog cá nhân">
   <link rel="shortcut icon" href="/images/favicon.ico">
   <style type="text/css">
     @media only screen and (max-width: 580px) {
@@ -114,7 +114,7 @@
       <div class="header-item">
         <div class="spoqa-logo-wrap">
           <a class="spoqa-logo" href="/"><img src="/images/logo.png" alt="Spoqa logo"></a>
-          <a class="blog-title" href="/">기술 블로그</a>
+          <a class="blog-title" href="/">Blog cá nhân</a>
         </div>
         <div class="nav">
           <input type="checkbox" id="toggle">
