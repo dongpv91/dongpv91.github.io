@@ -6,19 +6,9 @@ layout: default
 
 {% if page.author %}
 <div class="post-author-info">
-  {% if page.author-email %}
-    <img class="portrait" src="{{base_path}}/images/profile/{{page.author-email}}.png" />
-    <h1 class="post-title">{{page.title}}</h1>
-    <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
-    <span class="sep">|</span>
-    <span class="author-name"><a href="mailto:{{page.author-email}}">{{page.author}}</a></span>
-  {% else %}
-    <h1 class="post-title">{{page.title}}</h1>
-    <span class="post-date">{{ page.date | date: "%Y년 %m월 %d일" }}</span>
+    <span class="post-date">{{ page.date | date: "%Y-%m-%d" }}</span>
     <span class="sep">|</span>
     <span class="author-name">{{page.author}}</span>
-
-  {% endif %}
 </div>
 {% endif %}
 
@@ -41,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//connect.facebook.net/ko_KR/all.js#xfbml=1&appId=207542736008055";
+      js.src = "//connect.facebook.net/vi_VN/all.js#xfbml=1&appId=712203192308990";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
 });
