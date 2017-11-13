@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: avaScript ES6.
+title: JavaScript ES6.
 description: ECMAScript 6/ES6 là phiên bản mới nhất của bộ tiêu chuẩn ECMAScript – một bộ đặc tả tiêu chuẩn dành cho Javascript do Hiệp hội các nhà sản xuất máy tính Châu Âu (European Computer Manufacturers Association – ECMA) đề xuất. Phiên bảnECMAScript phổ biến ở thời điểm hiện tại (đầu 2015), và được hầu hết các trình duyệt hỗ trợ là ES5 và ES5.1 (ra mắt vào khoảng năm 2009 và 2011)。
 ---
 

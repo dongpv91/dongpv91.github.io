@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Các thành phần để xây dựng plugin cho eclipse.
-description: PMD là công cụ phân tích mã nguồn. Nó tìm thấy những lỗ hổng chương trình phổ biến về variables, khối catch rỗng, tạo ra đối tượng không cần thiết,… . Nó hỗ trợ chủ yếu **Java** và một số ngôn ngữ như JavaScript, XML, XSL..
+description: PMD là công cụ phân tích mã nguồn. Nó tìm thấy những lỗ hổng chương trình phổ biến về variables, khối catch rỗng, tạo ra đối tượng không cần thiết,… . Nó hỗ trợ chủ yếu Java và một số ngôn ngữ như JavaScript, XML, XSL..
 ---
 
 
