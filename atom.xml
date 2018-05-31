@@ -5,14 +5,14 @@ layout: null
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title>Spoqa tech blog</title>
+  <title>Đông tech blog</title>
   <link rel="alternate" href="{{ site.home_url }}/"/>
   <link type="application/atom+xml" rel="self" href="{{ site.home_url }}/atom.xml"/>
   <updated>{{ site.time | date_to_xmlschema }}</updated>
   <id>{{ site.home_url }}/</id>
   <author>
-    <name>Spoqa Developer</name>
-    <email>dev@spoqa.com</email>
+    <name>Phạm Văn Đông</name>
+    <email>dongpv@hotmail.com</email>
   </author>
 
   {% for post in site.posts limit:20 %}
