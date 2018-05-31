@@ -6,17 +6,15 @@
 <html class=""><!--<![endif]-->
 <head>
   {% capture page_description %}
-    {% if page.url contains 'jobs' %}
-      스포카에서 상점을 위한 IT 서비스를 디자인하고 개발할 크리에이터를 찾고 있습니다.
-    {% elsif page.description %}
+    {% if page.description %}
       {{ page.description }}
     {% else %}
-      스포카 크리에이터의 경험과 배움을 공유합니다.
+      Chia sẻ trải nghiệm và học tập của Đông.
     {% endif %}
   {% endcapture %}
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <title>Spoqa Blog cá nhân{% if page.title %} | {{ page.title }}{% endif %}</title>
+  <title>Blog {% if page.title %} | {{ page.title }}{% endif %}</title>
   <meta name="description" content="{{ page_description | strip }}">
   <link rel="canonical" href="{{ site.home_url}}{{ page.url }}">
 
@@ -40,8 +38,7 @@
 
   <!-- Twitter card meta tags -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@spoqa">
-  <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}Spoqa Blog cá nhân{% endif %}">
+  <meta name="twitter:title" content="{% if page.title %}{{page.title}}{% else %}Blog cá nhân{% endif %}">
   <meta name="twitter:description" content="{{ page_description | strip }}">
   {% if page.representing_image %}
     <meta name="twitter:image" content="{{ site.home_url }}{{ page.representing_image }}">
@@ -50,13 +47,6 @@
   {% endif %}
 
   <script>
-    window.WebFontConfig = {
-        custom: {
-            families: ['Spoqa Han Sans:100,300,400,700'],
-            urls: ['https://d24uop4wk69tt0.cloudfront.net/css/SpoqaHanSans-kr.css']
-        },
-        timeout: 60000
-    };
     (function(d) {
         var wf = d.createElement('script'), s = d.scripts[0];
         wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
@@ -82,31 +72,7 @@
       }
     }
   </style>
-  <!-- Facebook Pixel Code -->
-  <script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-    n.queue=[];t=b.createElement(e);t.async=!0;
-    t.src=v;s=b.getElementsByTagName(e)[0];
-    s.parentNode.insertBefore(t,s)}(window, document,'script',
-    'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '712203192308990');
-    fbq('track', 'PageView');
-  </script>
-  <noscript><img height="1" width="1" style="display:none"
-    src="https://www.facebook.com/tr?id=712203192308990&ev=PageView&noscript=1"
-  /></noscript>
-  <!-- End Facebook Pixel Code -->
 </head>
-{% if page.title %}
-<script>
-  fbq('track', 'ViewContent', {
-    content_ids: '{{ site.home_url }}{{ page.url }}',
-  });
-</script>
-{% endif %}
 
 <body>
   <div class="wrapper">
@@ -130,7 +96,7 @@
                     url_left6 != '/jobs/' %}
               selected
               {% endif %} menu-blog" href="/index.html">Blogs</a></li>
-            <li><a class="menu-github" href="https://github.com/spoqa">GitHub</a></li>
+            <li><a class="menu-github" href="https://github.com/dongpv91">GitHub</a></li>
           </ul>
         </div>
       </div>
