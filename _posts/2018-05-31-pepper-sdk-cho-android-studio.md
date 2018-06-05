@@ -4,6 +4,7 @@ title: Thử dùng Pepper SDK với Android Studio
 description: Sử dụng Pepper SDK với Android Studio: Đây là SDK mới được Softbank cung cấp giúp phát triển nhanh, hơn đơn giản hơn rất nhiều, đặc biệt với các lập trình viên Android. Và đây sẽ là cách sẽ được giới thiệu trong bài viết này.
 ---
 
+
 ### [Pepper là gì?](http://www.softbank.jp/robot/products/)
 
 Pepper là một robot màu trắng, cao 121 cm và nặng 28 kg với đầy đủ hai tay (nhưng không có chân) có khả năng thể hiện cảm xúc giống như người và được thiết kế để trở thành một thành viên thực thụ trong gia đình.

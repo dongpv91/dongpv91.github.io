@@ -4,6 +4,7 @@ title: Giới thiệu Recommend Music Model
 description: Giới thiệu 3 model dùng để gợi ý bài hát của Spotify: CF Models, NLP Models, Audio Models.
 ---
 
+
 Trong những ngày mưa gió, ngắm những đám mây vội vã bay, cây trút lá, người người vội vã về nhà, đó là cơ hội không thể tốt hơn để ngồi nghe những bản nhạc hay về cuộc sống.
 
 ![alt](https://drive.google.com/uc?id=0B05rqFCwNCjkWkhVcXhFLUFtX1E&export=download)
