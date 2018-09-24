@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: Thử dùng Pepper SDK với Android Studio
-description: Sử dụng Pepper SDK với Android Studio: Đây là SDK mới được Softbank cung cấp giúp phát triển nhanh, hơn đơn giản hơn rất nhiều, đặc biệt với các lập trình viên Android. Và đây sẽ là cách sẽ được giới thiệu trong bài viết này.
+description: Sử dụng Pepper SDK với Android Studio. Đây là SDK mới được Softbank cung cấp giúp phát triển nhanh, hơn đơn giản hơn rất nhiều, đặc biệt với các lập trình viên Android. Và đây sẽ là cách sẽ được giới thiệu trong bài viết này.
 ---
 
 
