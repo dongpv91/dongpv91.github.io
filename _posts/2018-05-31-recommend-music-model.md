@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Recommend Music Model
+title: Giới thiệu Recommend Music Model
 description: Giới thiệu 3 model dùng để gợi ý bài hát của Spotify: CF Models, NLP Models, Audio Models.
 ---
 
